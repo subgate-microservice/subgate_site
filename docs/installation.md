@@ -4,7 +4,7 @@
 Follow the steps below to install and run the Subgate Microservice:
 
 ```bash
-git clone https://github.com/barmatey/subgate.git
+git clone https://github.com/subgate-microservice/subgate.git
 cd subgate
 docker compose up --build
 ```
