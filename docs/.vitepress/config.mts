@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "Subgate",
     description: "A self-hosted microservice for subscription management",
-    base: "/",
+    base: "/subgate/",
     cleanUrls: true,
     ignoreDeadLinks: true,
     themeConfig: {
@@ -20,7 +20,7 @@ export default defineConfig({
             {
                 text: 'Core experience',
                 items: [
-                    {text: 'Plan management', link: '/plan-management.md'},
+                    {text: 'Plan management', link: '/plan-management'},
                     {text: 'Subscription management', link: '/subscription-management'},
 
                 ],
