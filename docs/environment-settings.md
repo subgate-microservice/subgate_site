@@ -3,12 +3,37 @@
 ## Environment file
 
 ```ini
-# Database configuration
+# Database
+DB_NAME=subgate
+DB_USER=postgres
+DB_PASSWORD=qwerty
 DB_HOST=localhost
 DB_PORT=5432
-DB_USER=myuser
-DB_PASSWORD=mypassword
-DB_NAME=mydatabase
+
+# Server settings
+HOST=0.0.0.0
+PORT=3000
+
+# First user
+USER_EMAIL=test@test.com
+USER_PASSWORD=qwerty
+USER_APIKEY_TITLE=Test apikey
+USER_APIKEY_PUBLIC_ID=apikey_test_id
+USER_APIKEY_SECRET=test_secret
+
+# Authentication settings
+AUTHENTICATION_CACHE_TIME=3600
+AUTHENTICATION_TOKEN_LIFETIME=86_400
+SECRET=sample_secret
+
+# Subscription manager
+SUBSCRIPTION_MANAGER_CHECK_PERIOD=3600
+SUBSCRIPTION_MANAGER_BULK_LIMIT=100
+
+# Cleaners
+LOG_RETENTION_DAYS=7
+DELIVERY_RETENTION_DAYS=7
+
 ```
 
 ## Docker compose

@@ -32,3 +32,4 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.vitepress/dist
+          clean: false  # Не удалять CNAME и другие файлы
