@@ -4,7 +4,7 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "Subgate",
     description: "A self-hosted microservice for subscription management",
-    base: "/",
+    base: "/subgate.dev/",
     cleanUrls: false,
     ignoreDeadLinks: true,
     themeConfig: {
@@ -41,7 +41,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/barmatey/subgate'},
+            {icon: 'github', link: 'https://github.com/subgate-microservice/subgate'},
         ],
     }
 })

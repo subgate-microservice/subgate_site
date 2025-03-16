@@ -8,7 +8,7 @@ hero:
       link: "/installation"
       theme: "brand"
     - text: "GitHub"
-      link: "https://github.com/barmatey/subgate"
+      link: "https://github.com/subgate-microservice/subgate"
       theme: "alt"
 features:
   - title: "Simple to Use"
