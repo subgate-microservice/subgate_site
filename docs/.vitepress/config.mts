@@ -5,7 +5,7 @@ export default defineConfig({
     title: "Subgate",
     description: "A self-hosted microservice for subscription management",
     base: "/",
-    cleanUrls: false,
+    cleanUrls: true,
     ignoreDeadLinks: true,
     themeConfig: {
         sidebar: [
