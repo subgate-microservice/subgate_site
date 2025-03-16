@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as t}from"./chunks/framework.AELpvxz7.js";const c=JSON.parse('{"title":"Subgate Client","description":"","frontmatter":{},"headers":[],"relativePath":"client.md","filePath":"client.md"}'),l={name:"client.md"};function e(h,s,p,k,r,d){return n(),a("div",null,s[0]||(s[0]=[t("",8)]))}const o=i(l,[["render",e]]);export{c as __pageData,o as default};
